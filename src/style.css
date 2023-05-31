@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color:#87CBB9;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding: 0 1rem;
+    height: 70px;
+    
+}
+.site-title{
+    font-size: 2rem;
+}
+.nav ul{
+
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap:0rem;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 68px;
+    width:170px;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;
+}
+.nav li{
+    background-color: #87CBB9;
+    border-color:#555;
+    border-style: solid;
+    border-width: 1px;
+    height: 68px;
+    width:170px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;
+}
+
+.nav li:hover{
+    background-color: #777;
+    height: 68px;
+    width:170px;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;
+}
+
+.nav li.active{
+    background-color: #555;
+    height: 70px;
+    width:170px;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;
+}
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+.input{
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    flex: 1;
+}
+.search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+   
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  .icon{
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .icon:hover{
+    color: gray;
+    width: 28px;
+    height: 28px;
+  }
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}

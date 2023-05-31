@@ -1,0 +1,58 @@
+.about-des {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-family: Roboto;
+  width: 100%;
+
+}
+.about-des-right {
+  font-size: 30px;
+  text-align: right;
+  margin-top: 250px;
+  margin-right: 100px;
+  font-family: Roboto;
+  width: 100%;
+  padding-right: 40px;
+}
+.about-container {
+  margin-left: 90px;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr; /* Defines three equal-width columns */
+  grid-template-rows: auto; /* Defines rows that adjust based on content */
+  gap: 1px; /* Adds a gap of 10px between grid items */
+}
+.una{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Defines three equal-width columns */
+  grid-template-rows: auto; 
+  gap: 300px;
+}
+.ngalawa{
+  margin-top: 0px;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Defines three equal-width columns */
+  grid-template-rows: auto; 
+  gap: 200px;
+}
+.logoabout {
+  width: 450px;
+  height: 450px;
+}
+.about1 {
+  width: 500px;
+  height: 500px;
+}
+.what{
+  text-align: center;
+  margin-left:190px;
+  font-family: Roboto;
+  font-size: 90px;
+}

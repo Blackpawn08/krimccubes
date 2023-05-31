@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import { Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router,Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -10,6 +10,7 @@ function App() {
 
  
   return (
+    <Router>
     <div className="app">
       <Navbar/>
       <div className="container">
@@ -22,6 +23,7 @@ function App() {
       </div>
       </div>
     </div>
+    </Router>
   )
 }
 

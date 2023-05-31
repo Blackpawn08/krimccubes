@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
